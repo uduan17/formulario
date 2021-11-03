@@ -1,0 +1,64 @@
+body {
+    font-family: roboto;
+    background: #c0c0aa; 
+    background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  
+    background: linear-gradient(to  right, #1cefff, #c0c0aa); 
+    height: 700px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+ form {
+background: #fff;
+padding: 40px 0;
+box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+border-radius: 10px;
+}
+
+.form{
+width: 100%;
+margin: auto;
+}
+
+form .grupo {
+    position: relative;
+    margin: 45px;
+}
+
+input{
+    background: color none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 1px solid var(--colortextos);
+}
+
+inpust:focus{
+    outline: none;
+    color: #5e5d5d;
+}
+
+label{
+    color: var(--colortextos);
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    transition: o.5s ease-in ease-in-out all;
+    pointer-events: none;
+}
+
+input:focus-label{
+    top: -14px;
+    font-size: 13px;
+    color: #2196f3;
+}
